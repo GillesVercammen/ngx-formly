@@ -77,6 +77,7 @@ export class FormlyForm implements DoCheck, OnChanges, OnDestroy {
       this.clearModelSubscriptions();
       this.formlyBuilder.buildForm(this.form, this.fields, this.model, this.options);
       this.trackModelChanges(this.fields);
+      console.log('NGX FORMLY JOOOOOOOOOOOOOOOOOOOO')
       this.options.updateInitialValue();
     }
   }
